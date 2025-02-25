@@ -235,7 +235,7 @@ def plot_price_events(merged_data, figsize=(14, 7), price_color='blue', event_co
     ax.scatter(event_days['Date'], event_days['Price'], 
                color=event_color, label='Events', zorder=5)
     
-    # Add annotations
+    # Add annotations to items
     for _, row in event_days.iterrows():
         ax.annotate(
             text=row['Event_Description'][:annot_length] + "...",
