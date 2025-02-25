@@ -246,7 +246,7 @@ def plot_price_events(merged_data, figsize=(14, 7), price_color='blue', event_co
             alpha=0.8
         )
     
-    # Formatting
+    # Formatting options
     ax.set_title('Brent Oil Prices with Major Events (1987–2022)', pad=20)
     ax.set_xlabel('Date', labelpad=10)
     ax.set_ylabel('Price (USD/barrel)', labelpad=10)
