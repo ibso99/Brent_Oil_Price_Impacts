@@ -23,7 +23,7 @@ def plot_histogram(df, column='Price', ax=None):
         plt.show()
 
 def plot_line_chart(df, x='Date', y='Price', ax=None):
-    """Plot line chart of a specified column over time."""
+    """Plot line chart of a specified column over times."""
     if ax is None:
         fig, ax = plt.subplots(figsize=(10, 6))
     ax.plot(df[x], df[y], color='green', lw=2)
